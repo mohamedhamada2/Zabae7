@@ -1,0 +1,162 @@
+{
+  "project_info": {
+    "project_number": "1061546570947",
+    "firebase_url": "https://zabaeh-1d523-default-rtdb.firebaseio.com",
+    "project_id": "zabaeh-1d523",
+    "storage_bucket": "zabaeh-1d523.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061546570947:android:f5c6804f1ab50b5c011e76",
+        "android_client_info": {
+          "package_name": "com.alatheer.zabae7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061546570947-95i2avn1iiqom6lor9gkrpc58ate3imu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alatheer.zabae7",
+            "certificate_hash": "4485a3234106b1961fa97f11595d1745db1517d1"
+          }
+        },
+        {
+          "client_id": "1061546570947-hmb9l2jbve3sru95ov5lb4g7luo7ggjg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alatheer.zabae7",
+            "certificate_hash": "db2bfa9fcee67a8e79e09d6a8c9ad8ebd072d03d"
+          }
+        },
+        {
+          "client_id": "1061546570947-19qupkric99vhdevht3g2sepaq9veenb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD57IzHjeAgpmt5J_3m-Qgt3uE4cqd2RUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061546570947-19qupkric99vhdevht3g2sepaq9veenb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1061546570947-mfr2j6jsuumd6i35j0dkc8reiq8up2s0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alatheer.zabeh",
+                "app_store_id": "8747875"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061546570947:android:bfbb1d0e44c622b0011e76",
+        "android_client_info": {
+          "package_name": "com.alatheer.zabae72"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061546570947-5fm66er0rrmdcsa5cdv7q3qdi5cbi19q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alatheer.zabae72",
+            "certificate_hash": "9d908a6cb8be06de2235c24aefa49ed24e7da319"
+          }
+        },
+        {
+          "client_id": "1061546570947-sv6ojdphg3i49b9tcfusbuva6728q2ro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alatheer.zabae72",
+            "certificate_hash": "4485a3234106b1961fa97f11595d1745db1517d1"
+          }
+        },
+        {
+          "client_id": "1061546570947-19qupkric99vhdevht3g2sepaq9veenb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD57IzHjeAgpmt5J_3m-Qgt3uE4cqd2RUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061546570947-19qupkric99vhdevht3g2sepaq9veenb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1061546570947-mfr2j6jsuumd6i35j0dkc8reiq8up2s0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alatheer.zabeh",
+                "app_store_id": "8747875"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061546570947:android:d812b3dff29b4879011e76",
+        "android_client_info": {
+          "package_name": "com.alatheer.zabae7_elghrbyah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061546570947-qn08i8gvfenl593figqrcbj69omm2mr1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alatheer.zabae7_elghrbyah",
+            "certificate_hash": "38571eb2ef78a19492e31086ecbe6bfbf2dd77bf"
+          }
+        },
+        {
+          "client_id": "1061546570947-19qupkric99vhdevht3g2sepaq9veenb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD57IzHjeAgpmt5J_3m-Qgt3uE4cqd2RUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061546570947-19qupkric99vhdevht3g2sepaq9veenb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1061546570947-mfr2j6jsuumd6i35j0dkc8reiq8up2s0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alatheer.zabeh",
+                "app_store_id": "8747875"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

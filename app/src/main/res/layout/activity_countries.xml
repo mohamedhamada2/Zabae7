@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="countriesviewmodel"
+            type="com.alatheer.zabae7.home.countries.CountriesViewModel" />
+    </data>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".home.countries.CountriesActivity">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/logo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_circle1"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_circle2"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="142.36dp"
+                android:layout_height="128.36dp"
+                android:src="@drawable/logo"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cairo_bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="مرحبا بكم في تطبيق ذبائح الغربية"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cairoregular"
+            android:textColor="#4f4f4f"
+            android:textSize="14sp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="من فضلك قم بإختيار المدينة  التي تود التوصيل إليها"/>
+        <Spinner
+            android:id="@+id/city_spinner"
+            android:layout_width="358dp"
+            android:layout_height="48dp"
+            android:background="@drawable/spinner_bg"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textAlignment="textStart" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cairoregular"
+            android:textColor="@color/silver"
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:text="ملاحظة: إذا أردت تغيير المدينة يجب عليك إغلاق التطبيق وفتحه مرة أخرى."/>
+        <Button
+            android:layout_width="358dp"
+            android:layout_height="56dp"
+            android:background="@drawable/btn_login_background"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:elevation="@dimen/_20sdp"
+            android:fontFamily="@font/cairo_bold"
+            android:onClick="Confirm"
+            android:text="الدخول للتطبيق"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginBottom="@dimen/_10sdp"/>
+        <RelativeLayout
+            android:layout_width="358dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairo_medium2"
+                android:layout_alignParentRight="true"
+                android:text="للتواصل معنا"
+                android:textColor="#4f4f4f"
+                android:textSize="14sp"
+                android:layout_centerVertical="true"/>
+            <ImageView
+                android:id="@+id/whats_app_img"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/whatsapp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"/>
+            <ImageView
+                android:id="@+id/twitter_img"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/twitter"
+                android:layout_toRightOf="@+id/whats_app_img"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</layout>

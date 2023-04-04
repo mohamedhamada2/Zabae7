@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="OfferViewModel"
+            type="com.alatheer.zabae7.offers.OfferViewModel" />
+    </data>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".offers.OffersFragment"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/relative_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:background="#333333"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="العروض"
+        android:fontFamily="@font/cairo_bold"
+        android:textSize="18sp"
+        android:textColor="#fbfbfb"
+
+        android:layout_marginRight="@dimen/_5sdp"/>
+    <ImageView
+        android:id="@+id/backimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_vector__3_"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="21dp"/>
+        <FrameLayout
+            android:id="@+id/basket_frame"
+            android:layout_width="@dimen/_28sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/_5sdp">
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="left|center"
+                android:background="@drawable/ic_shopping_cart1" />
+            <TextView
+                android:id="@+id/txt_basket_num"
+                android:layout_width="@dimen/_14sdp"
+                android:layout_height="@dimen/_14sdp"
+                android:fontFamily="@font/cairo_bold"
+                android:textSize="@dimen/_7ssp"
+                android:textColor="@color/white"
+                android:text="0"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:background="@drawable/ic_count_circle"/>
+
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/notification_frame"
+            android:layout_width="@dimen/_28sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/basket_frame"
+            android:layout_marginLeft="@dimen/_2sdp">
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/ic__6_notification" />
+            <TextView
+                android:id="@+id/txt_notification_num"
+                android:layout_width="@dimen/_14sdp"
+                android:layout_height="@dimen/_14sdp"
+                android:fontFamily="@font/cairo_bold"
+                android:textSize="@dimen/_7ssp"
+                android:textColor="@color/white"
+                android:text="0"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:background="@drawable/ic_count_circle"/>
+
+        </FrameLayout>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/products_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_10sdp"/>
+</LinearLayout>
+</layout>

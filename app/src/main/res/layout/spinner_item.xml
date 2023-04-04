@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:id="@+id/title_txt2"
+    android:layout_width="356dp"
+    android:layout_height="46dp"
+    android:textColor="@color/dark_silver"
+    android:textSize="14sp"
+    android:text="cairo"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:fontFamily="@font/cairoregular"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

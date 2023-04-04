@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/add_message"
+        android:title="@string/add_message"
+        android:icon="@drawable/ic_messages"/>
+    <item android:id="@+id/order"
+        android:title="@string/orders"
+        android:icon="@drawable/ic_bag_2"/>
+    <item android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home_2"/>
+</menu>

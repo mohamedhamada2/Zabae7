@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/profile"
+          android:title="@string/profile"
+        android:icon="@drawable/ic_user_square"/>
+    <item android:id="@+id/basket"
+        android:title="@string/Complaints"
+        android:icon="@drawable/ic_messages"/>
+    <item android:id="@+id/offer"
+        android:title="@string/offers"
+        android:icon="@drawable/ic_ticket_discount"/>
+    <item android:id="@+id/order"
+        android:title="@string/orders"
+        android:icon="@drawable/ic_bag_2"/>
+    <item android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home_2"/>
+</menu>

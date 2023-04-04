@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f7f7f7"
+    android:layout_gravity="center"
+    tools:context="com.alatheer.zabae7.Splash.SplashActivity">
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_circle1"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_circle2"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:id="@+id/logo3"
+        android:layout_width="100dp"
+        android:layout_height="88dp"
+        android:background="@drawable/new_logo"
+        android:layout_gravity="center"/>
+
+
+</FrameLayout>

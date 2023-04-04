@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="verificationcodeviewmodel"
+            type="com.alatheer.zabae7.login.VerificationCodeViewModel" />
+    </data>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".login.VerificationCodeActivity">
+        <RelativeLayout
+            android:id="@+id/relative_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:background="#333333"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="كود التفعيل"
+                android:fontFamily="@font/cairo_bold"
+                android:textSize="18sp"
+                android:textColor="#fbfbfb"
+
+                android:layout_marginRight="@dimen/_5sdp"/>
+            <ImageView
+                android:id="@+id/backimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_chevron_white"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:onClick="Back"
+                android:layout_marginRight="@dimen/_5sdp"/>
+        </RelativeLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_group"
+                    android:layout_marginTop="@dimen/_40sdp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="19.15dp"
+                    android:text="تفقد الكود"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:fontFamily="@font/cairo_bold"
+                    android:textSize="24sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="64dp"
+                    android:layout_marginLeft="64dp"
+                    android:gravity="center"
+                    android:text= "تم إرسال كود التفعيل إلى رقم 55683136 966+ منفضلك قم بإدخال الكود"
+                    android:textColor="@color/lightsilver"
+                    android:fontFamily="@font/cairo_semibold"
+                    android:textSize="14sp"/>
+                <EditText
+                    android:id="@+id/et_code"
+                    android:layout_width="358dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="right|center_vertical"
+                    android:background="@drawable/txt_login_background"
+                    android:hint="أدخل كود التفعيل"
+                    android:textColorHint="@color/lightsilver"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:paddingRight="@dimen/_5sdp"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:fontFamily="@font/cairoregular"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:inputType="number"
+                    android:drawableRight="@drawable/ic_group_727"
+                    android:drawablePadding="@dimen/_7sdp"
+                    android:layout_gravity="center_horizontal" />
+                <Button
+                    android:id="@+id/btn_add"
+                    android:layout_width="358dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/btn_login_background"
+                    android:textSize="@dimen/_16ssp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:elevation="@dimen/_20sdp"
+                    android:fontFamily="@font/cairo_semibold"
+                    android:text="@string/confirm"
+                    android:layout_gravity="center_horizontal" />
+                <ProgressBar
+                    android:id="@+id/progressbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:visibility="gone"/>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:orientation="horizontal"
+    android:background="@drawable/txt_non_active_bg"
+    android:layout_margin="@dimen/_5sdp"
+
+    android:id="@+id/linear2">
+    <TextView
+        android:id="@+id/txt_order_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#333333"
+        android:fontFamily="@font/cairo_semibold"
+        android:text="الطلبات الحالية"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:textSize="@dimen/_13ssp"/>
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/_10sdp"/>
+</LinearLayout>

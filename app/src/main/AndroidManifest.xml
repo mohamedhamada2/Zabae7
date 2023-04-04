@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.alatheer.zabae7">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logooo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/logooo"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:supportsRtl">
+        <activity android:name=".notificationdata.NotificationsDataActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.alatheer.zabayeh_FCM-MESSAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".payment.PaymentDataActivity"
+            android:exported="true"></activity>
+        <activity android:name=".payment.PersonalDataActivity" />
+        <activity android:name=".newpassword.NewPasswordActivity" />
+        <activity android:name=".login.VerificationCodeActivity" />
+        <activity android:name=".home.countries.CountriesActivity" />
+        <activity android:name=".login.LoginActivity2" />
+        <activity android:name=".home.HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.alatheer.zabayeh_FCM-MESSAGE-HOME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".forgetpassword.ForgetPasswordActivity" />
+        <activity android:name=".signup.SignUpActivity" />
+        <activity android:name=".login.LoginActivity" />
+        <activity
+            android:name=".Splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo" />
+
+        <receiver
+            android:name=".sms.OTP_Receiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name=".service.FCMMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

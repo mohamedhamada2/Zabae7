@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="homeviewmodel"
+            type="com.alatheer.zabae7.home.HomeActivityViewModel" />
+    </data>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.alatheer.zabae7.home.HomeActivity">
+        <FrameLayout
+            android:id="@+id/fragmentcontainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#fbfbfb"/>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/home_bottomnavigation"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/ic_rectangle_103"
+            app:menu="@menu/home_menu"
+            app:labelVisibilityMode="unlabeled"
+            android:fontFamily="@font/cairo_bold"
+            android:theme="@style/Widget.BottomNavigationView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:visibility="visible"
+            android:elevation="8dp"
+            app:itemIconTint="@drawable/bottom_nav_color"
+            app:itemBackground="@drawable/selector_checked_uncheked" />
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/home_bottomnavigation2"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/ic_rectangle_103"
+            app:menu="@menu/home_menu2"
+            app:labelVisibilityMode="unlabeled"
+            android:fontFamily="@font/cairo_bold"
+            android:theme="@style/Widget.BottomNavigationView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:elevation="8dp"
+            app:itemIconTint="@drawable/bottom_nav_color"
+            app:itemBackground="@drawable/selector_checked_uncheked2"/>
+    </RelativeLayout>
+</layout>
+
